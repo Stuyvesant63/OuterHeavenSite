@@ -13,22 +13,22 @@ export const config: Config = {
       images: [
         {
           url: "/images/marketing/banner.png",
-          alt: "Marketing Banner for SKVAD Community",
+          alt: "Marketing Banner for OuterHeavenDayZ Community",
         },
       ],
     },
   },
   pages: {
     home: {
-      title: "Home | SKVAD Community",
-      description: "Welcome to the SKVAD Community! We are a DayZ community that is dedicated to providing the best experience for our players. Join us today!",
+      title: "Home | Outer Heaven DayZ Community",
+      description: "Willkommen in der Outer Heaven DayZ Community! Welcome to the Outer Heaven DayZ Community. Join us today!",
       sections: {
         network: {
           title: "Server Network",
-          description: "Our DayZ servers are hosted in Europe and are maintained by our dedicated team of developers and system administrators.",
+          description: "Unser DayZ Server wird über das Frankfurter Rechenzentrum, eines der besten in Europa, gehostet und gewartet.",
         },
         about: {
-          title: "About Us",
+          title: "Über uns",
           description: "We are a community of DayZ players who are passionate about the game and the experiences it provides. We strive to provide a safe and enjoyable environment for all players.",
           rows: {
             1: {
@@ -49,7 +49,7 @@ export const config: Config = {
             },
             3: {
               title: "Development",
-              description: "Our team of developers are constantly working to improve the server and add new features. We welcome feedback and suggestions from our players.",
+              description: "Unser Entwicklerteam ist stetig bemüht, Neuerungen in das Spiel zu bringen und die Serverperformance zu verbessern, um ein angenehmes Spielerumfeld zu entwickeln.",
               image: {
                 url: "/images/about/development.png",
                 alt: "Development Image",
@@ -59,14 +59,14 @@ export const config: Config = {
         },
         leaderboard: {
           title: "Leaderboard",
-          description: "Check out the top players on our servers and see how you compare. Can you make it to the top of the leaderboard?",
+          description: "Schau auf unser Leaderboard und vergleiche die Besten der Besten! Schaffst du es in die oberen Reihen?",
         },
         contact: {
-          title: "Contact Us",
-          description: "If you have any questions or concerns, please don't hesitate to contact us through the following channels.",
+          title: "Kontaktiere Uns",
+          description: "Bei allen Anliegen, kontaktiere uns gerne über unseren Discord Server oder schreibe uns eine Email. 👇",
           links: {
-            'Discord': "https://discord.gg/skvad",
-            'Email': "mailto:info@skvad.eu",
+            'Discord': "https://discord.gg/QZY35qTUjD",
+            'Email': "mailto:info@outerheaven.de",
           },
         },
       },
@@ -83,31 +83,17 @@ export const config: Config = {
       },
     },
     cta: {
-      label: "Join us today!",
-      href: "https://discord.gg/mirasaki",
+      label: "Trete uns noch heute bei!",
+      href: "https://discord.gg/QZY35qTUjD",
     },
   },
   servers: [
     {
-      name: 'SKVAD EU1',
-      ipv4: '193.25.252.92',
-      gamePort: 2302,
-      steamQueryPort: 27016,
-      cftoolsApiId: '7732f152-3b6b-4da5-9356-b43ebfef2012',
-    },
-    {
-      name: 'SKVAD EU2',
-      ipv4: '193.25.252.24',
-      gamePort: 2302,
-      steamQueryPort: 27016,
-      cftoolsApiId: '40dfcdf1-2e38-4a86-8b36-f02e4c868bf5',
-    },
-    {
-      name: 'SKVAD EU3',
-      ipv4: '193.25.252.92',
+      name: 'Outer Heaven Dayz [GER]',
+      ipv4: '194.26.183.212',
       gamePort: 2402,
-      steamQueryPort: 27016,
-      cftoolsApiId: '16c3c8d1-9e15-4729-a541-8a578288e43d',
+      steamQueryPort: 24016,
+      cftoolsApiId: '7732f152-3b6b-4da5-9356-b43ebfef2012',
     },
   ],
   cftools: {
@@ -120,11 +106,11 @@ export const config: Config = {
     },
   },
   footer: {
-    trademarkNotice: "The DayZ logo is a registered trademark of Bohemia Interactive a.s. SKVAD is not affiliated with Bohemia Interactive a.s. or DayZ. All other trademarks are the property of their respective owners.",
-    brandingName: "SKVAD Community",
+    trademarkNotice: "The DayZ logo is a registered trademark of Bohemia Interactive a.s. Outer Heaven DayZ is not affiliated with Bohemia Interactive a.s. or DayZ. All other trademarks are the property of their respective owners.",
+    brandingName: "OuterHeavenDayZ",
     brandingURL: '/',
     initialCopyrightYear: 2021,
-    copyrightBrandName: "SKVAD",
+    copyrightBrandName: "OuterHeavenDayZ",
     copyrightBrandUrl: '/',
     links: [
       {
