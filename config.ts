@@ -89,7 +89,7 @@ export const config: Config = {
   },
   servers: [
     {
-      name: 'Outer Heaven Dayz [GER]',
+      name: '[GER] Outer Heaven PVE/PVP [Trader|Weed|Heli|Cars|BBP]',
       ipv4: '194.26.183.212',
       gamePort: 2402,
       steamQueryPort: 24016,
